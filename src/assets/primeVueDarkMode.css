@@ -1,0 +1,226 @@
+
+/* for DataTable, TreeTable */
+.dark .p-datatable-thead > tr > th,
+.dark .p-treetable-thead > tr > th {
+  background-color: rgb(15 23 42) !important;
+}
+
+.dark .p-datatable-wrapper tbody tr:nth-child(2n+1),
+.dark .p-treetable-wrapper tbody tr:nth-child(2n+1) {
+  background-color: rgb(30 41 59);
+}
+
+.dark .p-datatable-wrapper tbody tr:nth-child(2n+2),
+.dark .p-treetable-wrapper tbody tr:nth-child(2n+2) {
+  background: unset;
+  border-bottom: unset;
+}
+
+.dark .p-datatable-wrapper tbody tr:hover,
+.dark .p-treetable-wrapper tbody tr:hover {
+  background: rgb(50 61 79);
+}
+
+.dark .p-datatable-wrapper tbody tr:nth-child(2n+2) > td,
+.dark .p-treetable-wrapper tbody tr:nth-child(2n+2) > td {
+  border-bottom: unset;
+}
+
+.dark .p-datatable-wrapper tbody,
+.dark .p-treetable-wrapper tbody {
+  background-color: rgb(15 23 42);
+}
+
+.dark .p-datatable-wrapper tbody td,
+.dark .p-treetable-wrapper tbody td {
+  color: #f5f5f5;
+}
+
+.dark .p-datatable-thead > tr > th,
+.dark .p-treetable-thead > tr > th {
+  color: #f5f5f5;
+  font-weight: bold;
+}
+
+/* for Breadcrumb */
+
+.dark .p-breadcrumb {
+  background-color: rgb(15 23 42);
+  border: 1px solid rgb(30 41 59);
+}
+
+.dark .p-autocomplete {
+  background-color: rgb(30 41 59);
+}
+
+.dark .p-inputtext {
+  background-color: rgb(30 41 59);
+  border: 1px solid rgb(55 65 81);
+  color: #eee;
+}
+
+/* for AutoComplete */
+
+.dark-scrollbars .p-autocomplete-panel .p-autocomplete-items .p-autocomplete-item {
+  background-color: rgb(30 41 59) !important;
+
+}
+.dark-scrollbars .p-autocomplete-panel .p-autocomplete-items {
+  background-color: rgb(30 41 59) !important;
+  border: 1px solid rgb(55 65 81) !important;
+}
+.dark-scrollbars .p-autocomplete-panel .p-autocomplete-items .p-autocomplete-item:hover {
+  background-color: rgb(50 61 79) !important;
+}
+
+/* for Splitter */
+/* background can also be rgb(15 23 42); */
+.dark .p-splitter {
+  background-color: rgb(30 41 59);
+  border-color: rgb(15 23 42);
+}
+
+.dark .p-tabview .p-tabview-panels {
+  background-color: rgb(30 41 59);
+}
+
+.dark .p-tabview .p-tabview-nav {
+  background-color: rgb(15 23 42);
+  border-color: rgb(55 65 81);
+}
+
+.dark .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  background-color: rgb(30 41 59);
+  border-color: #eee;
+  color: #eee;
+}
+
+.dark .p-tabview .p-tabview-nav li .p-tabview-nav-link {
+  background-color: rgb(15 23 42);
+  border-color: #71717A;
+}
+
+.dark .p-tabview .p-tabview-nav li .p-tabview-nav-link:hover {
+  background: rgb(50 61 79) !important;
+}
+
+.dark .p-tabview h5,
+.dark .p-tabview small {
+  color: #f5f5f5;
+}
+
+.dark .p-splitter .p-splitter-gutter-resizing,
+.dark .p-splitter .p-splitter-gutter {
+  background: rgb(15 23 42);
+}
+
+
+
+
+.dark .p-tag-button i {
+  color: #aaa;
+}
+
+
+.dark .field-checkbox label {
+  color: #aaa;
+}
+
+
+/* for context menu */
+.dark-scrollbars .p-contextmenu {
+  background: rgb(30 41 59);
+  border: 1px solid rgb(55 65 81);
+}
+
+.dark-scrollbars .p-contextmenu .p-menuitem > .p-menuitem-link,
+.dark-scrollbars .p-contextmenu .p-menuitem.p-menuitem-active > .p-menuitem-link {
+  background: rgb(30 41 59);
+}
+
+.dark-scrollbars .p-contextmenu .p-menuitem > .p-menuitem-link:hover,
+.dark-scrollbars .p-contextmenu .p-menuitem.p-menuitem-active > .p-menuitem-link:hover {
+  background: rgb(50 61 79);
+}
+
+.dark-scrollbars .p-contextmenu .p-menuitem > .p-menuitem-link span {
+  color: #ddd !important;
+}
+
+
+/* for dropdown */
+
+.dark .p-dropdown {
+  background: rgb(30 41 59);
+  border-color: rgb(55 65 81);
+}
+
+.dark-scrollbars .p-dropdown-panel {
+  background: rgb(30 41 59);
+}
+
+.dark-scrollbars .p-dropdown-panel .p-dropdown-header {
+  background: rgb(25 36 54);
+}
+
+.dark-scrollbars .p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+  background: rgb(20 31 49);
+  color: #eee !important;
+}
+
+.dark-scrollbars .p-dropdown-panel .p-dropdown-items .p-dropdown-item:not(.p-highlight):not(.p-disabled):hover {
+  background: rgb(50 61 79);
+}
+
+.dark-scrollbars .p-dropdown-panel .p-dropdown-items .p-dropdown-item:not(.p-highlight):not(.p-disabled) {
+  color: #aaa !important;
+}
+
+/* for dialog */
+.dark-scrollbars .p-dialog .p-dialog-header,
+.dark-scrollbars .p-dialog .p-dialog-content,
+.dark-scrollbars .p-dialog .p-dialog-footer {
+  background: rgb(15 23 42);
+}
+
+/* for dialog input */
+.dark-scrollbars .p-dialog .p-dialog-content input {
+  background: rgb(15 23 42);
+}
+
+/* for dialog tree table */
+.dark-scrollbars .p-dialog .p-treetable .p-treetable-thead > tr > th {
+  background: rgb(15 23 42);
+}
+
+.dark-scrollbars .p-treetable .p-treetable-tbody > tr:nth-child(2n+1) {
+  background-color: rgb(30 41 59);
+}
+
+.dark-scrollbars .p-treetable .p-treetable-tbody > tr:nth-child(2n+2) {
+  background: rgb(15 23 42);
+}
+
+.dark-scrollbars .p-treetable .p-treetable-tbody > tr:hover {
+  background: rgb(50 61 79);
+  color: #111;
+}
+
+
+/* for dialog data table */
+.dark-scrollbars .p-dialog .p-datatable .p-datatable-thead > tr > th {
+  background: rgb(15 23 42);
+}
+
+.dark-scrollbars .p-datatable .p-datatable-tbody > tr:nth-child(2n+1) {
+  background-color: rgb(30 41 59);
+}
+
+.dark-scrollbars .p-datatable .p-datatable-tbody > tr:nth-child(2n+2) {
+  background: rgb(15 23 42);
+}
+
+.dark-scrollbars .p-datatable .p-datatable-tbody > tr:hover {
+  background: rgb(50 61 79);
+  color: #111;
+}

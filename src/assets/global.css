@@ -1,0 +1,17 @@
+.p-button {
+  border-style: solid;
+  margin-right: 0.75rem;
+  margin-bottom: 0.75rem;
+  margin-right: 0.75rem;
+  margin-bottom: 0.75rem;
+  --tw-border-opacity: 1;
+  border-color: rgb(37 99 235 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+
+}

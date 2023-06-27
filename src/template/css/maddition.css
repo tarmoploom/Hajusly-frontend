@@ -1,0 +1,23 @@
+
+.progress-btn {
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+}
+
+.center-button {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn-white-text {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.add-form {
+    max-width: 1200px;
+    margin: 0 auto;
+}
